@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+button {
+  margin-left: 0.5rem;
+}
+
+input,
+select {
+  margin-bottom: 1rem;
+}
